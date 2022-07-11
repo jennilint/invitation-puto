@@ -20,6 +20,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 40px;
+        top: 40vh;
     }
     #content {
         width: 700px;
@@ -28,6 +29,7 @@
         margin-right: auto;
         padding-top: 10px; 
         padding-bottom: 30px; 
+        top: 40vh;
     }
     .space {
         height: 50px;
@@ -103,13 +105,15 @@
     @media only screen and (max-width: 700px) {
         body {
             background-image: url('background-image.png');
+            background-size: cover;
+            background-position: center;
         }
         #card {
-            max-width: 300px;
+            max-width: 310px;
             min-width: 200px;
         }
         #content {
-            max-width: 275px;
+            max-width: 305px;
             min-width: 175px
         }
         h1 {
